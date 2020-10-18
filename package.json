@@ -1,0 +1,34 @@
+{
+  "name": "google-api-client-proxy",
+  "version": "1.0.0",
+  "main": "googleClient/index.js",
+  "repository": "https://github.com/nghminh163/google-api-client-proxy.git",
+  "author": "Nguyễn Hoàng Minh <nghminh163@outlook.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "node_modules/.bin/nodemon server.js",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv-flow": "^3.2.0",
+    "express": "^4.17.1",
+    "googleapis": "^61.0.0",
+    "jquery": "^3.5.1",
+    "knockout": "^3.5.1",
+    "lodash": "^4.17.20",
+    "lowdb": "^1.0.0",
+    "moment": "^2.29.1",
+    "pug": "^3.0.0",
+    "uuid": "^8.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.5",
+    "prettier": "^2.1.2"
+  },
+  "nodemonConfig": {
+    "ignore": [
+      "db.json"
+    ]
+  }
+}
