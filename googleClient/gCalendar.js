@@ -49,7 +49,6 @@ class gCalendar {
 
   async getEvent(calendarId, eventId) {
     try {
-      console.log(calendarId,eventId)
       return (
         await this.calendar.events.get({
           calendarId,
